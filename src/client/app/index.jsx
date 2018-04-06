@@ -1,6 +1,6 @@
 import React from 'react';
 import {render} from 'react-dom';
-import Main from './components/main';
+import './index.less';
 
 class App extends React.Component {
     render () { 
@@ -8,4 +8,4 @@ class App extends React.Component {
     };
 } 
 
-render(<App/>, document.getElementById('app'));  
+render(<App/>, document.querySelector('body'));  

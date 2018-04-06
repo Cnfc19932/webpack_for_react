@@ -26,6 +26,8 @@
   "devDependencies": {
     "file-loader": "^1.1.6",
     "json-loader": "^0.5.7",
+    "less": "^3.0.1",
+    "less-loader": "^4.1.0",
     "webpack-dev-server": "^2.9.7"
   }
 }
